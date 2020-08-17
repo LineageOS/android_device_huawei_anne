@@ -18,15 +18,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from charlotte device
-$(call inherit-product, device/huawei/charlotte/device.mk)
+# Inherit from anne device
+$(call inherit-product, device/huawei/anne/device.mk)
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_DEVICE := charlotte
-PRODUCT_NAME := lineage_charlotte
+PRODUCT_DEVICE := anne
+PRODUCT_NAME := lineage_anne
 PRODUCT_BRAND := Huawei
 PRODUCT_MANUFACTURER := HUAWEI
-PRODUCT_MODEL := P20 Pro
+PRODUCT_MODEL := P20 Lite

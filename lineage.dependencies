@@ -1,6 +1,6 @@
 [
   {
-    "repository": "android_device_huawei_kirin970-common",
-    "target_path": "device/huawei/kirin970-common"
+    "repository": "android_device_huawei_hi6250-common",
+    "target_path": "device/huawei/hi6250-common"
   }
 ]
